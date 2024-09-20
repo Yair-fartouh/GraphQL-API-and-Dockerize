@@ -1,0 +1,15 @@
+# schema.graphql
+type Query {
+    students: [Student!]!
+    studentById(id: ID!): Student
+}
+
+type Mutation {
+    addStudent(name: String!, age: Int!): Student!
+}
+
+type Student {
+    id: ID!
+    name: String!
+    age: Int!
+}
