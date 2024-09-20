@@ -1,4 +1,4 @@
-
+![GraphQL-Docker](https://github.com/user-attachments/assets/423e02eb-501e-420c-a007-8459660dee79)
 # Docker Instructions
 
 This project contains a simple Flask application using GraphQL. The following guide will help you build the Docker image and run the container.
